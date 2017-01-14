@@ -37,6 +37,8 @@ Typically, I add other things to my .xbindkeysrc such as a binding for slock (us
 This is an autostart file for openbox.
 <br>
 Has a list of generic programs that I need to launch when openbox starts.
+<br>
+Yes, my keyboard repeat rate is set rather high. You should also give that a try sometime.
 
 
 
