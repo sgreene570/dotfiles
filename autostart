@@ -1,0 +1,9 @@
+tint2 &
+nm-applet &
+xset r rate 200 50 &
+launchy &
+feh --bg-fill ~/Pictures/WALLPAPER.jpg
+blueman-applet &
+xautolock -time 5 -locker slock &
+dropbox start -i &
+xbacklight -set 30 &
