@@ -3,24 +3,24 @@ My Linux dotfiles
 <br>
 # Vimrc
 <br>
-My vimrc has a few standard settings and a few neat ones.  
+My vimrc has a few standard settings and a few neat ones.
 <br>
 Tabs are set to 4 spaces, because that's how I like it.
 <br>
-:W can be used to write a file as sudo (this is pretty useful).
+<code>:W</code> can be used to write a file as sudo (this is pretty useful).
 <br>
 F5 can be mashed to kill off trailing whitspaces.
 <br>
 If you plan on keeping the vimrc in the .vim folder, you should make a symlink back in your homedir.
 # Bashrc
 <br>
-Not much to say here, got some nice colors and some basic alisaes.
+Not much to say here, got some nice colors and some basic aliases.
 <br>
-(I try to avoid using aliases as a crutch).
+(I try to avoid using aliases as a crutch, and maybe you should too).
 <br>
 # Bash_profile
 <br>
-This prompts users on login if they would like to startx.
+This prompts users on login if they would like to <code>startx</code>.
 <br>
 Default case is yes.
 <br>
