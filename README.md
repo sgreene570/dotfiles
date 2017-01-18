@@ -30,7 +30,7 @@ This is a bash script I wrote to map out a few keys for xbindkeys.
 <br>
 This script prompts users to bind the volume up and down keys through ALSA, as well as the brightness up and down keys through xbacklight.
 <br>
-Typically, I add other things to my .xbindkeysrc such as a binding for slock (usually mod4 + l).
+Typically, I add other things to my .xbindkeysrc such as a binding for slock (usually <code>mod4 + l</code>).
 <br>
 # autostart
 <br>
@@ -38,7 +38,7 @@ This is an autostart file for openbox.
 <br>
 Has a list of generic programs that I need to launch when openbox starts.
 <br>
-Yes, my keyboard repeat rate is set rather high. You should also give that a try sometime.
+I prefer a higher key repeat rate, especially when using in vim.
 
 
 
