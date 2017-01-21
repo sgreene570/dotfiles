@@ -1,4 +1,3 @@
-sk to startx
 if [[ -z $DISPLAY && $XDG_VTNR -le 12 ]];
 then
 echo "would you like to start X? (y/n)"
