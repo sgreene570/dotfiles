@@ -90,6 +90,7 @@ alias df="df -h"
 alias alsa="alsamixer"
 alias xclip="xclip -selection c"
 alias shutdown="systemctl poweroff"
+alias vim="nvim"
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
