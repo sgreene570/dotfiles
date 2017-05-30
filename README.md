@@ -2,11 +2,9 @@
 My Linux dotfiles
 <br>
 # nvim
-My vimrc(init.vim for neovim) has a few standard settings and a few neat ones.
+My vimrc(init.vim for neovim) has a few standard settings and a couple of easter eggs.
 <br>
 Tabs are set to 4 spaces, because that's how I like it.
-<br>
-<code>:W</code> can be used to write a file as sudo (this is pretty useful).
 <br>
 F5 can be mashed to kill off trailing whitspaces.
 <br>
@@ -35,6 +33,9 @@ This is an autostart file for openbox.
 Has a list of generic programs that I need to launch when openbox starts.
 <br>
 I prefer a higher key repeat rate, especially when using in nvim.
+<br>
+# inputrc
+Tab completion ignroing case is a must, and so is disabling that pesky bell sound.
 
 
 
