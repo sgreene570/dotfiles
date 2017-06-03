@@ -16,9 +16,7 @@ Not much to say here, got some nice colors and some basic aliases.
 However, I do alias a few things, including neovim to vim.
 <br>
 # bash_profile
-This prompts users on login if they would like to <code>startx</code>.
-<br>
-Default case is yes.
+Starts x automatically on login.
 <br>
 # bindings.sh
 This is a bash script I wrote to map out a few keys for xbindkeys.
