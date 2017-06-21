@@ -1,9 +1,8 @@
 tint2 &
-xset r rate 200 50 &
+xset r rate 200 50
 feh --bg-fill ~/Pictures/WALLPAPER.jpg
 blueman-applet &
-xautolock -time 5 -locker slock &
-dropbox start -i &
-xbacklight -set 30 &
+xautolock -time 5 -locker slock
+xbacklight -set 30
 dropbox start -i &
 compton --vsync=opengl &

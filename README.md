@@ -14,6 +14,7 @@ Not much to say here, got some nice colors and some basic aliases.
 (I try to avoid using aliases as a crutch, and maybe you should too).
 <br>
 However, I do alias a few things, including neovim to vim.
+Also, I prefer a higher key repeat rate, especially when using in nvim.
 <br>
 # bash_profile
 Starts x automatically on login.
@@ -25,12 +26,11 @@ This script prompts users to bind the volume up and down keys through ALSA, as w
 <br>
 Typically, I add other things to my .xbindkeysrc such as a binding for slock (usually <code>mod4 + l</code>).
 <br>
-# autostart
-This is an autostart file for openbox.
+# openbox
+My openbox xml config (rc.xml) and my autostart file live here.
 <br>
 Has a list of generic programs that I need to launch when openbox starts.
 <br>
-I prefer a higher key repeat rate, especially when using in nvim.
 <br>
 # inputrc
 Tab completion ignroing case is a must, and so is disabling that pesky bell sound.
