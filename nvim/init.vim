@@ -8,6 +8,9 @@ set nowrap
 set mouse=a
 syntax on
 
+" ignore case when opening files
+set wildignorecase
+
 " Colors, vividchalk color scheme
 set t_Co=256
 colorscheme vividchalk
