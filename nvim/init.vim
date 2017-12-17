@@ -35,3 +35,6 @@ hi ErrorMsg ctermbg=238
 "    EOL is a pilcrow
 "    Tabs are arrows(I like to know when tabs somehow show up)
 set list lcs=trail:·,tab:>—,extends:»,precedes:«
+
+" Disable terminal line numbers
+au TermOpen * setlocal nonumber norelativenumber
