@@ -38,3 +38,26 @@ set list lcs=trail:·,tab:>—,extends:»,precedes:«
 
 " Disable terminal line numbers
 au TermOpen * setlocal nonumber norelativenumber
+
+" :Sp multiple files at once (this is really cool)
+" Supports wildcards with the :argadd command
+function! Sp(dir, ...)
+  let split = 'sp'
+  if a:dir == '1'
+    let split = 'vsp'
+  endif
+  if(a:0 == 0)
+    execute split
+  else
+    let i = a:0
+    while(i > 0)
+      execute 'let files = glob (a:' . i . ')'
+      for f in split (files, "\n")
+        execute split . ' ' . f
+      endfor
+      let i = i - 1
+    endwhile
+    windo if expand('%') == '' | q | endif
+endif
+endfunction
+com! -nargs=* -complete=file Sp call Sp(0, <f-args>)
