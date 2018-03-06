@@ -18,6 +18,7 @@ colorscheme vividchalk
 " Improved search. Yay!
 set hlsearch
 set smartcase
+set ic
 
 " Spam F5 to kill off whitespace, because, you know, you hit space sometimes
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
@@ -38,6 +39,9 @@ set list lcs=trail:·,tab:>—,extends:»,precedes:«
 
 " Disable terminal line numbers
 au TermOpen * setlocal nonumber norelativenumber
+
+" Specify undo file
+set undodir=~/.vimundo
 
 " :Sp multiple files at once (this is really cool)
 " Supports wildcards with the :argadd command
