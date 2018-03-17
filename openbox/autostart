@@ -6,3 +6,4 @@ xautolock -time 5 -locker slock
 xbacklight -set 30
 dropbox start -i &
 compton --vsync=opengl &
+xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
