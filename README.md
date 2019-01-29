@@ -30,3 +30,6 @@ My openbox xml config (rc.xml) and my autostart file live here.
 <br>
 # inputrc
 Tab completion ignroing case is a must, and so is disabling terminal bells.
+<br>
+# Xresources
+This is where I set my default terminal font and font size.
