@@ -92,6 +92,8 @@ alias xclip="xclip -selection c"
 alias shutdown="systemctl poweroff"
 alias vim="nvim"
 
+echo -e -n "\x1b[\x34 q" # changes to steady underline
+
 # Git log pretty graph alias
 alias glgg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 
