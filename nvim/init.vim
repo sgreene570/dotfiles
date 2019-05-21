@@ -64,4 +64,9 @@ function! Sp(dir, ...)
     windo if expand('%') == '' | q | endif
 endif
 endfunction
+
+" Spell check
 com! -nargs=* -complete=file Sp call Sp(0, <f-args>)
+
+" Reset terminal cursor when exiting
+au VimLeave * set guicursor=a:hor25-blinkon0
