@@ -70,3 +70,9 @@ com! -nargs=* -complete=file Sp call Sp(0, <f-args>)
 
 " Reset terminal cursor when exiting
 au VimLeave * set guicursor=a:hor25-blinkon0
+
+" Go is weird
+autocmd Filetype go setlocal noexpandtab ts=8 sw=8
+
+" So is yaml
+autocmd Filetype yaml setlocal expandtab ts=2 sw=2
