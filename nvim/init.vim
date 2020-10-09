@@ -76,3 +76,17 @@ autocmd Filetype go setlocal noexpandtab ts=8 sw=8
 
 " So is yaml
 autocmd Filetype yaml setlocal expandtab ts=2 sw=2
+
+call plug#begin('~/.vim/plugged')
+Plug 'fatih/vim-go', { 'tag': 'v1.23'}
+Plug 'preservim/nerdtree'
+call plug#end()
+
+autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" vim-go has issues with go-mod
+let g:go_rename_command = 'gopls'
+
+set guicursor=
