@@ -42,6 +42,7 @@ au TermOpen * setlocal nonumber norelativenumber
 
 " Specify undo file
 set undodir=~/.vimundo
+set undofile
 
 " :Sp multiple files at once (this is really cool)
 " Supports wildcards with the :argadd command
