@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Stephen Greene
+	email = sgreene570@gmail.com
+	signingkey = 6CB9799B77B8FC4C66F04F5A6B3D03726DA812E4
+[core]
+	editor = nvim
+[push]
+	default = current
