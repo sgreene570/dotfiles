@@ -81,13 +81,21 @@ autocmd Filetype yaml setlocal expandtab ts=2 sw=2
 call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'tag': 'v1.23'}
 Plug 'preservim/nerdtree'
+Plug 'jreybert/vimagit'
 call plug#end()
 
 autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" sync syntax highlighting on load
+autocmd BufEnter * syntax sync fromstart
+
 " vim-go has issues with go-mod
 let g:go_rename_command = 'gopls'
+
+" enable copy paste via yank
+vnoremap y "*y
+vnoremap p "*p
 
 set guicursor=
