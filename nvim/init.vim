@@ -88,8 +88,8 @@ autocmd vimenter * NERDTree
 autocmd VimEnter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-" sync syntax highlighting on load
-autocmd BufEnter * syntax sync fromstart
+" sync syntax highlighting on load for markdown files
+autocmd BufEnter *.md syntax sync fromstart
 
 " vim-go has issues with go-mod
 let g:go_rename_command = 'gopls'
