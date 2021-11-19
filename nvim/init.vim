@@ -79,9 +79,9 @@ autocmd Filetype go setlocal noexpandtab ts=8 sw=8
 autocmd Filetype yaml setlocal expandtab ts=2 sw=2
 
 call plug#begin('~/.vim/plugged')
-Plug 'fatih/vim-go', { 'tag': 'v1.23'}
+Plug 'fatih/vim-go'
 Plug 'preservim/nerdtree'
-Plug 'jreybert/vimagit'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 autocmd vimenter * NERDTree
